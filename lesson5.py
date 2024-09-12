@@ -13,13 +13,13 @@ else:
     print("Число отрицательное")
 
 # Задание №2
-is_raining = False
-is_sunny = True
-if is_raining != False and is_sunny == True:
+is_raining = True
+is_sunny = False
+if is_raining and is_sunny:
     print("Дождь при солнце, возможна радуга!")
-elif is_raining == False and is_sunny == True:
+elif not is_raining and is_sunny:
     print("Сегодня солнечная погода, отличный день для прогулки!")
-elif is_raining != False and is_sunny != True:
+elif is_raining and not is_sunny:
     print("Сегодня идет дождь, возьмите зонт!")
 else:
     print("Сегодня облачно, но без осадков")
