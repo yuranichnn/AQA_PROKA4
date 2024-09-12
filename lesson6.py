@@ -58,5 +58,5 @@ response = {
 }
 print(response["conditions"]["trustfactors"][0]["icon"])
 print(response["conditions"]["campaign"]["id"])
-print(response["conditions"]["trustfactors"][0]["helpIcon"] == False)
+print(response["conditions"]["trustfactors"][0]["helpIcon"] is False)
 print(response["services"][2]["type"])
