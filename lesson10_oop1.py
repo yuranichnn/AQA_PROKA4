@@ -12,7 +12,7 @@ class Book:
         self._is_borrowed = False
 
     def get_status(self):
-        if self._is_borrowed is True:
+        if self._is_borrowed:
             status = f"Книга '{self.title}' автора '{self.author}' кем то взята"
         else:
             status = f"Книга '{self.title}' автора '{self.author}' доступна"
